@@ -1,0 +1,24 @@
+{
+  "name": "logistockpro",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "vite.config.js",
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Sly21/03_integration_theo_kevin_sylvain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Sly21/03_integration_theo_kevin_sylvain/issues"
+  },
+  "homepage": "https://gitlab.com/Sly21/03_integration_theo_kevin_sylvain#readme",
+  "dependencies": {
+    "vite": "^4.0.2"
+  }
+}

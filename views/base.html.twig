@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            fonce: '#00171f',
+            moyen: '#003459',
+          }
+        }
+      }
+    }
+  </script>
+<title>{% block title %}Document{% endblock %}</title>
+</head>
+<body class="bg-gray-200">
+
+    {% block header %}{% include 'header.html.twig' %}{% endblock %}
+
+    {% block main %}
+      {% include 'top-vente.html.twig' %}
+      {% block produit %}{% endblock %}
+    {% endblock %}
+
+    {% block footer %}{% include 'footer.html.twig' %}{% endblock %}
+    
+</body>
+</html>
